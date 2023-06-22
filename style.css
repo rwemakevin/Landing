@@ -1,0 +1,14 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+section {
+    padding: 20px;
+}
+
+section#Hero, section#footer {
+    background-color: #1F2937 ;
+    color: #F9FAF8;
+}
