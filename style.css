@@ -112,3 +112,17 @@ section#quote {
   border: 1px solid green;
   margin-top: 20px;
 }
+
+section#call-to-action {
+  display: flex;
+  justify-content: center;
+}
+
+.call-to-action-content {
+  width: 80%;
+  padding: 50px 70px;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
