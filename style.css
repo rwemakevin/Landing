@@ -6,10 +6,19 @@
   padding: 0;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 section#Hero,
 section#footer {
   background-color: #1f2937;
   color: #f9faf8;
+}
+
+section#Hero {
+  padding-bottom: 50px;
+  height: 100vh;
 }
 
 .header {
@@ -53,14 +62,36 @@ section#footer {
   justify-content: space-between;
 }
 
+.description > h1 {
+  font-size: 40px;
+  line-height: 1;
+}
+
+.description > p {
+  line-height: normal;
+  padding: 5px 20px 10px 0;
+  margin: 10px 0;
+}
+
+.description > button {
+  background-color: #3882f6;
+  color: white;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
 .image img {
   width: 100%;
   height: auto;
   margin-left: auto;
+  border-radius: 5px;
 }
 
 #body h1 {
   text-align: center;
+  margin-bottom: 30px;
+  color: #1f2937;
 }
 
 .body-content {
@@ -70,23 +101,30 @@ section#footer {
 
 .container {
   width: 80%;
-  border: 1px solid yellow;
   display: flex;
   justify-content: space-between;
 }
 
 .body-content-item {
-  border: 1px solid green;
-  padding: 20px;
+  padding: 20px 25px;
+}
+
+.body-content-item > p {
+  margin-top: 10px;
+  font-weight: 300;
 }
 
 .body-content-item img {
   width: 100%;
   height: auto;
+  border: 3px solid #3882f6;
+  padding: 10px 0;
+  border-radius: 7px;
 }
 
 .body-content-item p {
   text-align: center;
+  margin-top: 20px;
 }
 
 section#body,
@@ -103,14 +141,24 @@ section#quote {
 
 .quote-content {
   width: 70%;
-  border: 1px solid green;
   padding: 10px;
+}
+
+.quote-content > p {
+  color: #1f2937;
+  font-style: italic;
+  font-size: 22px;
+  font-weight: light;
 }
 
 .author {
   float: right;
-  border: 1px solid green;
   margin-top: 20px;
+}
+
+.author > p {
+  font-weight: bold;
+  color: #1f2937;
 }
 
 section#call-to-action {
@@ -120,15 +168,27 @@ section#call-to-action {
 
 .call-to-action-content {
   width: 80%;
-  padding: 50px 70px;
+  padding: 50px 50px;
   background-color: #3882f6;
+  border-radius: 7px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.cta-description {
+  color: white;
+}
+
+.cta-button button {
+  color: white;
+  padding: 5px 20px;
+  background: none;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
 section#footer {
-  background-color: #1f2937;
   color: white;
   text-align: center;
   padding: 30px 0;
