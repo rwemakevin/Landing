@@ -126,3 +126,10 @@ section#call-to-action {
   justify-content: space-between;
   align-items: center;
 }
+
+section#footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
