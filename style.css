@@ -94,3 +94,21 @@ section#quote,
 section#call-to-action {
   padding: 50px 0;
 }
+
+section#quote {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-content {
+  width: 70%;
+  border: 1px solid green;
+  padding: 10px;
+}
+
+.author {
+  float: right;
+  border: 1px solid green;
+  margin-top: 20px;
+}
